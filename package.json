@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rcauston/opencode-token-stats-v2.git"
+    "url": "git+https://github.com/tyonorja/opencode-token-stats-v2.git"
   },
   "tui": "./src/token-stats.tsx",
   "files": [

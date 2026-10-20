@@ -12,7 +12,7 @@ opencode plugin add ./path/to/opencode-token-stats-v2
 Or install from a git URL:
 
 ```bash
-opencode plugin add git+https://github.com/rcauston/opencode-token-stats-v2.git
+opencode plugin add git+https://github.com/tyonorja/opencode-token-stats-v2.git
 ```
 
 Then restart opencode (plugins load only at startup) and look for the **Tokens**
