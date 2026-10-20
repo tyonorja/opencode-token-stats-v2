@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-token-stats",
+  "version": "2.0.0",
+  "description": "OpenCode V2 TUI sidebar plugin showing token and throughput statistics for the current turn.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcauston/opencode-token-stats-v2.git"
+  },
+  "tui": "./src/token-stats.tsx",
+  "files": [
+    "src/",
+    "README.md",
+    "AGENTS.md",
+    "DESIGN.md"
+  ],
+  "peerDependencies": {
+    "@opencode/client": "^2.0.0",
+    "@opencode/plugin": "^2.0.0",
+    "@opentui/core": ">=0.5.17",
+    "@opentui/solid": ">=0.5.17",
+    "solid-js": ">=1.9.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode/theme": {
+      "optional": true
+    },
+    "@opentui/core": {
+      "optional": true
+    },
+    "@opentui/solid": {
+      "optional": true
+    },
+    "solid-js": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "solid-js": "^1.9.17",
+    "typescript": "^5.9.3"
+  }
+}
